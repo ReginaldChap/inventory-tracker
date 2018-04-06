@@ -1,0 +1,7 @@
+
+/****** insert new ************/
+
+INSERT INTO brands (brandID) VALUES ('brand3') ON DUPLICATE KEY UPDATE brandID=brandID;
+INSERT INTO colours (colourID) VALUES ('colour3') ON DUPLICATE KEY UPDATE colourID=colourID;
+INSERT INTO lures (modelID) VALUES ('model3') ON DUPLICATE KEY UPDATE modelID=modelID;
+INSERT INTO lures_unique (modelID, brandID, colourID, quantity) VALUES ('model3', 'brand3', 'colour3', 9) ON DUPLICATE KEY UPDATE quantity=VALUES(quantity) + quantity;

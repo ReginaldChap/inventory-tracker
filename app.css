@@ -1,0 +1,40 @@
+body {
+	background-color: lightgrey;
+}
+
+.camera {
+	height: 220px;
+	background-color: grey;
+	margin-bottom: 1em;
+	background-image: url(https://target.scene7.com/is/image/Target/52768335_Alt01?wid=488&hei=488&fmt=pjpeg);
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.top-buffer {
+	margin-top: 20px;
+}
+
+.imgPlaceholder {
+	width: 100px;
+	height: 100px;
+	background-color: gray;
+}
+
+.formSpace {
+	margin-top: 1em;
+}
+
+
+
+
+
+
+
+/* BOOTSTRAP OVERRIDES */
+
+.btn {
+	border-radius: 30px;
+	min-width: 150px;
+}
